@@ -24,6 +24,7 @@ html, body {
     transform: translate(-50%,-50%);
 }
 .fullscreen-video-content {
+    background-color: transparent;
     border-width: 0px;
     color: black;
     border-radius: 30px;
@@ -37,15 +38,11 @@ html, body {
 }
 .fullscreen-video-content-link a{
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: #1F2833;
     text-decoration: none;
     margin-left: 6vw;
     font-size: 22px;
 }
 .fullscreen-video-content-link a::before {
     transition: all 1s ease-in-out;
-}
-.fullscreen-video-content-link a:hover {
-    height: 3px;
-    text-decoration: underline;
 }
