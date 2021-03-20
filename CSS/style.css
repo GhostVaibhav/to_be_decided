@@ -48,6 +48,10 @@ html, body {
 .fullscreen-video-content-link a::before {
     transition: all 1s ease-in-out;
 }
+.fullscreen-video-content-link a:hover {
+    cursor: none;
+    text-decoration: underline;
+}
 .unclick {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -67,7 +71,7 @@ html, body {
     transition: all 0.3s ease-out;
 }
 .home-icon:hover {
-    cursor: url("../Images/circle-fill.svg"), auto;
+    cursor: none;
     font-size: 48px;
     content: "Home";
     padding-right: 25px;
@@ -87,7 +91,7 @@ html, body {
     transition: all 0.3s ease-out;
 }
 .quotes:hover {
-    cursor: url("../Images/circle-fill.svg"), auto;
+    cursor: none;
     font-size: 48px;
     content: "Quotes";
     padding-right: 25px;
@@ -97,12 +101,12 @@ html, body {
     background-color: rgba(9, 197, 25, 0.7);    
 }
 .home-icon a {
-    cursor: url("../Images/circle-fill.svg"), auto;
+    cursor: none;
     color: black;
     text-decoration: none;
 }
 .quotes a {
-    cursor: url("../Images/circle-fill.svg"), auto;
+    cursor: none;
     color: black;
     text-decoration: none;    
 }
@@ -117,7 +121,7 @@ html, body {
     transition: all 0.3s ease-out;
 }
 .how-it-works:hover {
-    cursor: url("../Images/circle-fill.svg"), auto;
+    cursor: none;
     font-size: 48px;
     content: "How it works";
     padding-right: 25px;
@@ -127,7 +131,7 @@ html, body {
     background-color: rgba(37, 80, 221, 0.7);    
 }
 .how-it-works a {
-    cursor: url("../Images/circle-fill.svg"), auto;
+    cursor: none;
     color: black;
     text-decoration: none;    
 }
