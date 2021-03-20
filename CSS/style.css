@@ -62,6 +62,7 @@ html, body {
     position: absolute;
     padding: 20px;
     font-size: 0px;
+    top: 30px;
     right: 0px;
     transition: all 0.3s ease-out;
 }
@@ -81,7 +82,7 @@ html, body {
     position: absolute;
     padding: 20px;
     font-size: 0px;
-    top: 120px;
+    top: 150px;
     right: 0px;
     transition: all 0.3s ease-out;
 }
@@ -104,4 +105,36 @@ html, body {
     cursor: url("../Images/circle-fill.svg"), auto;
     color: black;
     text-decoration: none;    
+}
+.how-it-works {
+    border-radius: 30px 0 0 30px;
+    background-color: rgba(37, 80, 221, 0.1);
+    position: absolute;
+    padding: 20px;
+    font-size: 0px;
+    top: 270px;
+    right: 0px;
+    transition: all 0.3s ease-out;
+}
+.how-it-works:hover {
+    cursor: url("../Images/circle-fill.svg"), auto;
+    font-size: 48px;
+    content: "How it works";
+    padding-right: 25px;
+    background-color: rgba(37, 80, 221, 0.3);
+}
+.how-it-works:active {
+    background-color: rgba(37, 80, 221, 0.7);    
+}
+.how-it-works a {
+    cursor: url("../Images/circle-fill.svg"), auto;
+    color: black;
+    text-decoration: none;    
+}
+.bootstrap {
+    position: absolute;
+    padding: 20px;
+    font-size: 0px;
+    bottom: 0px;
+    left: 0px;
 }
