@@ -1,7 +1,7 @@
 $font-family:   "Roboto";
 $font-size:     14px;
 
-$color-primary: #ABA194;
+$color-primary: #000000;
 
 * {
     margin: 0;
@@ -16,7 +16,7 @@ body {
     animation: move 10s ease infinite;
     transform: translate3d(0, 0, 0);
     background: linear-gradient(45deg, #49D49D 10%, #A2C7E5 90%);
-    height: 100vh
+    height: 100vh;
 }
 
 .user {
@@ -70,6 +70,7 @@ body {
 }
 
 .btn {
+    cursor: pointer;
     display: block;
     width: 100%;
     padding: 20px;
@@ -78,11 +79,11 @@ body {
     outline: 0;
     border: 0;
     color: white;
-    background: $color-primary;
+    background: black;
     transition: 0.3s;
-    
+    filter: opacity(0.8);
     &:hover {
-        background: darken($color-primary, 5%);
+        background: black;
     }
 }
 

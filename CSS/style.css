@@ -164,3 +164,28 @@ html, body {
 .about-us:hover {
     filter: invert();
 }
+.chatbot {
+    border-radius: 30px 0 0 30px;
+    background-color: rgba(199, 182, 32, 0.1);
+    position: absolute;
+    padding: 20px;
+    font-size: 0px;
+    top: 390px;
+    right: 0px;
+    transition: all 0.3s ease-out;
+}
+.chatbot:hover {
+    cursor: none;
+    font-size: 48px;
+    content: "How it works";
+    padding-right: 25px;
+    background-color: rgba(199, 182, 32, 0.3);
+}
+.chatbot:active {
+    background-color: rgba(199, 182, 32, 0.7);    
+}
+.chatbot a {
+    cursor: none;
+    color: black;
+    text-decoration: none;    
+}
