@@ -44,8 +44,6 @@ html, body {
     text-decoration: none;
     margin-left: 2vw;
     font-size: 22px;
-}
-.fullscreen-video-content-link a::before {
     transition: all 1s ease-in-out;
 }
 .fullscreen-video-content-link a:hover {
@@ -136,9 +134,16 @@ html, body {
     text-decoration: none;    
 }
 .bootstrap {
+    cursor: none;
     position: absolute;
     padding: 20px;
+    padding-top: 40px;
+    padding-right: 40px;
     font-size: 0px;
     bottom: 0px;
     left: 0px;
+    transition: all 1s ease-in;
+}
+.bootstrap:hover {
+    filter: invert();
 }
