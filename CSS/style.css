@@ -95,3 +95,13 @@ html, body {
 .quotes:active {
     background-color: rgba(9, 197, 25, 0.7);    
 }
+.home-icon a {
+    cursor: url("../Images/circle-fill.svg"), auto;
+    color: black;
+    text-decoration: none;
+}
+.quotes a {
+    cursor: url("../Images/circle-fill.svg"), auto;
+    color: black;
+    text-decoration: none;    
+}
