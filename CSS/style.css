@@ -42,7 +42,7 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     color: #1F2833;
     text-decoration: none;
-    margin-left: 2vw;
+    margin-left: 10vw;
     font-size: 22px;
     transition: all 1s ease-in-out;
 }
@@ -145,5 +145,22 @@ html, body {
     transition: all 1s ease-in;
 }
 .bootstrap:hover {
+    filter: invert();
+}
+.about-us {
+    cursor: none;
+    position: absolute;
+    padding: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 0px;
+    bottom: 0px;
+    right: 0px;
+    transition: all 0.3s ease-in;
+}
+.about-us a {
+    cursor: none;
+}
+.about-us:hover {
     filter: invert();
 }
