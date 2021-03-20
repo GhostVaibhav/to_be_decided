@@ -1,0 +1,13 @@
+.background {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#quot {
+    align-items: center;
+    vertical-align: middle;
+}
+#auth{
+  font-size: 16px;
+  font-style: "italic";
+}
