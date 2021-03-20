@@ -6,5 +6,5 @@ request.send();
 request.onload = function() {
     const res = request.response;
     document.getElementById("quot").innerHTML = res.quotes[0].text;
-    document.getElementById("auth").innerHTML = res.quotes[0].author;
+    document.getElementById("auth").innerHTML = "~ " + res.quotes[0].author;
 }
