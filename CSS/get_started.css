@@ -1,0 +1,55 @@
+@import url('https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff2');
+html,body {
+    cursor: url("../Images/circle-fill.svg"), auto;
+    margin: 0;
+}
+.get-started-container {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.login-button {
+    text-align: center;
+    font-family: 'sf-pro-text_semibold';
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    border-radius: 30px;
+    padding-top: calc(25% - 72px);
+    margin: 10px;
+    float:left;
+    display:inline-block;
+    width: 50%;
+    height: calc(100% - 20px - 72px - 35%);
+    background: linear-gradient(225deg, #1623A6 0%, #3343D4 29%, #175EAC 73%, #176682 100%);
+    transition: all 1s ease-in-out;
+    cursor: none;
+}
+.login-button:hover {
+    filter: brightness(1.5);
+}
+
+.signup-button {
+    cursor: none;
+    text-align: center;
+    font-family: 'sf-pro-text_semibold';
+    font-weight: 700;
+    font-size: 72px;
+    color: white;
+    border-radius: 30px;
+    padding-top: calc(25% - 72px);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:left;
+    background: linear-gradient(to right top, #194189 0%, #3B4980 25%, #8738A7  100%);
+    display:inline-block;
+    width: -moz-calc(100% - 50% - 30px);
+    width: -webkit-calc(100% - 50% - 30px);
+    width: calc(100% - 50% - 30px);
+    height: calc(100% - 20px - 72px - 35%);
+    transition: all 1s ease-in-out;
+}
+.signup-button:hover {
+    filter: brightness(1.5);
+}
