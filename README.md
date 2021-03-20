@@ -12,7 +12,7 @@
 ##  Idea
 <hr>
 
-### This is a simple website which tells you about people nearby which are interested in fitness activities and chatting with others to share their knowledge with the world. The website is also suplemented with motivational quotes to motivate people.
+### This is a simple website that tells you about people nearby who are interested in fitness activities and chatting with others to share their knowledge with the world. The website is also supplemented with motivational quotes to motivate people.
 &nbsp;
 ## Simplified form of our idea
 <hr>
